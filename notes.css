@@ -1,0 +1,62 @@
+.header__icons{
+    display: flex;
+    font-family:sans-serif;
+    font-size:small;
+    font-weight: 100;
+    padding-top: 10px;
+    padding-left: 10px;
+
+}
+.header__icons p{
+    margin: 10px;
+}
+.cart{
+    color: black;
+    margin-top: 10px;
+    padding-top: 10px;
+    font-size: larger;
+    margin-right: 0px;
+    justify-content: left;
+}
+.login{
+    
+    border: solid black 1px;
+    margin: 10px;
+    padding: 10px;
+    
+}
+.signup{
+    border: solid black 1px;
+}
+.signinpage{
+    display: inline;
+
+    width: 10px;
+    margin-top: 10px;
+    gap: 10px;
+}
+.fa-magnifying-glass{
+    padding-left: 10px; 
+    padding: 10px;  
+}
+margin-top: 10px;
+    margin-bottom: 30px;
+
+
+
+    .subscription h2{
+        font-size: 32px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color:#2d2f31;
+        font-weight: 600;
+        margin-left: 20px;
+        background-color: #f7f9fa;
+        padding-bottom: 30px;
+        padding-top: 40px;
+    
+    }
+    .subscription p{
+        color:#6a6f73;
+        font-family: sans-serif;
+        margin-left: 20px;
+        background-color:#f7f9fa;
