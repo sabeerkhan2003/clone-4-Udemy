@@ -835,9 +835,15 @@ body{
     body{
         font-size: 11px;
     }
+    
     .imgtxt{
         width: 30%;
         margin: 0%;
+        padding: 3%;
+        font-size: 8px;
+        position: absolute;
+        top:110px;
+        margin-left: 20px;
     }
     .suisse{
         font-size: 90%;
@@ -870,6 +876,9 @@ body{
         font-family:serif;
         margin-top: 20px;
 
+    }
+    .featuresimg{
+        display: none;
     }
     .course_ratio{
         margin: 0%;
@@ -975,12 +984,12 @@ body{
     }
     .reviews{
         display: grid;
-  gap: 1rem; 
-  grid-template-columns: repeat(2, 1fr);
+        gap: 1rem; 
+        grid-template-columns: repeat(2, 1fr);
         font-size: smaller;
         padding: 0%;
         margin-left: 20px;
-       width: 200px;
+        width: 200px;
         
         
     }
@@ -997,4 +1006,124 @@ body{
         padding: 0%;
         outline: none;
     }
+    .trendsimg{
+        display: none;
+    }
+    .trendsh2{
+        display:block;
+        
+        font-size: 20px;
+        margin-left: 10px;
+        font-weight: 800;
+        font-family:serif;
+        margin-top: 0;
+        width: 200%;
+
+    }
+    .trendsp{
+        font-size: 16px;
+        font-family: sans-serif;
+        color: #2d2f31;
+        margin-left: 10px;
+    }
+    .trends_button{
+        font-size: 16px;
+        display: inline-block;
+        padding: 2%;
+    }
+    .footer1{
+        font-size: 19px;
+        margin: 0%;
+        padding: 0%;
+    }
+    .footer1 p{
+        flex-wrap: wrap;
+        font-size: 19px;
+        margin-left: 30px;
+        margin-top: 30px;
+        margin-right: 30px;
+    }
+    .footer1_img{
+        margin: 20px;
+        flex-wrap: wrap;
+        display: grid;
+        margin-left: 30px;
+        display: grid;
+        gap: 1rem; 
+        grid-template-columns: repeat(2, 1fr);
+        font-size: smaller;
+        padding: 0%;
+        margin-left: 30px;
+        
+        
+        
+
+    }
+    
+        
+    
+    
+    .footer_button{
+        position: relative;
+        bottom: 1075px;
+        right: 140px;
+        display: flex;
+        flex-wrap: wrap;
+        
+        
+    } 
+    .fa-globe{
+        padding-right: 5%;
+        margin: 0%;
+        font-size: medium;
+        padding-left: 5%;
+    } 
+    .language{
+        margin: 25px;
+        font-size: 14px;
+        width: 140px;
+        position: absolute;
+        
+
+
+    }
+    .footer{
+        margin: 0%;
+        padding: 0%;
+        margin-left: 0%;
+        display: inline;
+        
+        height: 300px;
+        
+    }
+    .footer2{
+        background-color: #2d2f31;
+        display: flex;
+        flex-direction: column;
+        padding: 0%;
+        gap: 8%;
+        height: 900px;
+        padding-top: 40px;
+        
+        
+        
+
+    }
+    .footerp{
+        font-size: 14px;
+        font-family: sans-serif;
+        margin-left: 30px;
+        margin-top: px;
+        display: inline-block;
+        flex-direction: column;
+        width: 150px;
+        height: 50px;
+        justify-content: left;
+        
+
+    }
+    .footer_end{
+        padding-top: 90px;
+    }
+        
 }
