@@ -60,3 +60,319 @@ margin-top: 10px;
         font-family: sans-serif;
         margin-left: 20px;
         background-color:#f7f9fa;
+
+
+/* mediaquery */
+
+.header__name--categories,.header2{
+    display: none;
+}
+.header__name{
+    font-size: 16px;
+}
+.header__searchbar{
+    position: absolute;
+    right: 50px;
+    width: 50%;
+    height: 20px;
+    
+}
+.header1,.header2{
+    height:50px;
+}
+.titlecard{
+    width: 100%;
+    font-size: 10px;
+}
+body{
+    font-size: 11px;
+}
+
+.imgtxt{
+    width: 30%;
+    margin: 0%;
+    padding: 3%;
+    font-size: 8px;
+    position: absolute;
+    top:110px;
+    margin-left: 20px;
+}
+.suisse{
+    font-size: 90%;
+
+}
+.suisse p{
+    padding-top: 10px;
+}
+.courses ul{
+    
+    font-size: 12px;
+    flex-wrap: wrap;
+    margin: 5%;
+    margin-top: 2%;
+    
+
+}
+.coursetitles{
+    display: block;
+    font-size: 20px;
+    margin-left: 20px;
+    font-weight: 800;
+    font-family:serif;
+}
+.learners{
+    display: block;
+    font-size: 20px;
+    margin-left: 20px;
+    font-weight: 800;
+    font-family:serif;
+    margin-top: 20px;
+
+}
+.featuresimg{
+    display: none;
+}
+.course_ratio{
+    margin: 0%;
+    flex-wrap: wrap;
+}
+.course{
+    flex-wrap: wrap;
+
+    
+}
+.course1,.course2,.course3,.course4{
+    flex-basis: 30%;
+    
+}
+.web_button{
+    font-size: 12px;
+}
+.para{
+    font-size: 16px;
+}
+.box1,.box2,.box3,.box4{
+    
+    margin: 3%;
+    padding: 0%;
+    flex-wrap: wrap;
+    display: flex;
+    
+    
+
+    
+}
+.handsimg{
+    width: 15%;
+}
+.boxes{
+    
+    flex-wrap: wrap;
+    display: inline-block;
+}
+words1{
+    font-size: 12px;
+
+}
+.upskill{
+    font-size: 10px;
+
+}
+.h2{
+    display: block;
+    font-size: 20px;
+    margin-left: 20px;
+    font-weight: 800;
+    font-family:serif;
+    margin-top: 20px;
+}
+.subscription_boxes{
+    
+    display:flex;
+    flex-wrap: wrap;
+}
+.subbox1,.subbox2,.subbox3,.subbox4{
+    padding: 0%;
+    margin-left: 20px;
+    margin-left: 20px;
+    margin-right: 10px; 
+}
+.subbox1p,.subrate1{
+    font-size: 16px;
+    
+    
+}
+.subbox2p{
+    font-size: 12px;
+}
+.usersp{
+    font-size: 10px;
+}
+.subrate1{
+    font-size: 10px;
+}
+.subrate2{
+    font-size: 8px;
+}
+.subbutton{
+    font-size:10px;
+    
+}
+.subpoints1,.subpoints2,.subpoints3,.subpoints4{
+    font-size: 8px;
+    padding: 0%;
+    margin: 0%;
+
+}
+.Achievementsp{
+    display: block;
+    font-size: 20px;
+    margin-left: 20px;
+    font-weight: 800;
+    font-family:serif;
+    margin-top: 20px;
+
+}
+.reviews{
+    display: grid;
+    gap: 1rem; 
+    grid-template-columns: repeat(2, 1fr);
+    font-size: smaller;
+    padding: 0%;
+    margin-left: 20px;
+    width: 200px;
+    
+    
+}
+.review1,.review2,.review3,.review4{
+    width: 150px;
+}
+.rev1img{
+    width: 4%;
+    padding: 0%;
+}
+.review1p,.review2p,.review3p,.review4p{
+    font-size:10px;
+    display: inline-block;
+    padding: 0%;
+    outline: none;
+}
+.trendsimg{
+    display: none;
+}
+.trendsh2{
+    display:block;
+    
+    font-size: 20px;
+    margin-left: 10px;
+    font-weight: 800;
+    font-family:serif;
+    margin-top: 0;
+    width: 200%;
+
+}
+.trendsp{
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #2d2f31;
+    margin-left: 10px;
+}
+.trends_button{
+    font-size: 16px;
+    display: inline-block;
+    padding: 2%;
+}
+.footer1{
+    font-size: 19px;
+    margin: 0%;
+    padding: 0%;
+}
+.footer1 p{
+    flex-wrap: wrap;
+    font-size: 19px;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+.footer1_img{
+    margin: 20px;
+    flex-wrap: wrap;
+    display: grid;
+    margin-left: 30px;
+    display: grid;
+    gap: 1rem; 
+    grid-template-columns: repeat(2, 1fr);
+    font-size: smaller;
+    padding: 0%;
+    margin-left: 30px;
+    
+    
+    
+
+}
+
+    
+
+
+.footer_button{
+    position: relative;
+    bottom: 1075px;
+    right: 140px;
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+} 
+.fa-globe{
+    padding-right: 5%;
+    margin: 0%;
+    font-size: medium;
+    padding-left: 5%;
+} 
+.language{
+    margin: 25px;
+    font-size: 14px;
+    width: 140px;
+    position: absolute;
+    
+
+
+}
+.footer{
+    margin: 0%;
+    padding: 0%;
+    margin-left: 0%;
+    display: inline;
+    
+    height: 300px;
+    
+}
+.footer2{
+    background-color: #2d2f31;
+    display: flex;
+    flex-direction: column;
+    padding: 0%;
+    gap: 8%;
+    height: 900px;
+    padding-top: 40px;
+    
+    
+    
+
+}
+.footerp{
+    font-size: 14px;
+    font-family: sans-serif;
+    margin-left: 30px;
+    margin-top: px;
+    display: inline-block;
+    flex-direction: column;
+    width: 150px;
+    height: 50px;
+    justify-content: left;
+    
+
+}
+.footer_end{
+    padding-top: 90px;
+}

@@ -820,15 +820,44 @@ body{
 @media screen and (max-width:500px) {
     .header__name--categories,.header2{
         display: none;
+        
+    }
+    *{
+        overflow-x: hidden;
+    }
+    .header1{
+        display: flex;
+        flex-direction: row;
+        overflow-x: hidden;
+        z-index: 1;
+        
     }
     .header__name{
-        font-size: 16px;
+        font-size:16px;
+        display: inline-block;
+        visibility: visible;
+        z-index: 1;
+        width: 30%;
+         
+    }
+    
+    .fa-solid{
+        padding: 0;
+        padding-top: 5px;
+        padding-left: 3px;
     }
     .header__searchbar{
         position: absolute;
         right: 50px;
         width: 50%;
         height: 20px;
+        overflow-x: hidden;
+    
+        
+        
+    
+        
+        
         
     }
     .header1,.header2{
@@ -863,7 +892,7 @@ body{
         font-size: 12px;
         flex-wrap: wrap;
         margin: 5%;
-        margin-top: 2%;
+        margin-top: 3%;
         
 
     }
@@ -873,6 +902,7 @@ body{
         margin-left: 20px;
         font-weight: 800;
         font-family:serif;
+        margin-top: 8%;
     }
     .learners{
         display: block;
@@ -1099,17 +1129,18 @@ body{
         margin-left: 0%;
         display: inline;
         
-        height: 300px;
+        height: 200px;
         
     }
     .footer2{
         background-color: #2d2f31;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        flex-wrap: wrap;
         padding: 0%;
-        gap: 8%;
-        height: 900px;
-        padding-top: 40px;
+        gap: 2%;
+        height: 350px;
+        padding-top: 20px;
         
         
         
@@ -1118,18 +1149,26 @@ body{
     .footerp{
         font-size: 14px;
         font-family: sans-serif;
-        margin-left: 30px;
+        margin-left: 15px;
         margin-top: px;
         display: inline-block;
         flex-direction: column;
-        width: 150px;
-        height: 50px;
+        width: 120px;
+        height: 150px;
         justify-content: left;
+        display: grid;
+        grid-template-columns: 180px;
+        
         
 
     }
-    .footer_end{
-        padding-top: 90px;
+    .footer_udemy{
+        position: absolute;
+        top:60%;
     }
+    .footer_end p{
+        position: absolute;
+        top:63%;
         
+    }
 }
